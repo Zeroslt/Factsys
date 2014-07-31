@@ -56,8 +56,9 @@ label.required
 	position:relative;
 	width:97px;
 	height:30px;
-	background-image: url(../images/small_action_button.jpg);
-	background-repeat:no-repeat;
+	background-color: #76C2AF;
+	_background-image: url(../images/small_action_button.jpg);
+	_background-repeat:no-repeat;
 	cursor:pointer;
 }
 .small_button span
@@ -87,8 +88,10 @@ label.required
 	position:relative;
 	width:119px;
 	height:35px;
-	background-image: url(../images/big_action_button.jpg);
-	background-repeat:no-repeat;
+	_background-image: url(../images/big_action_button.jpg);
+	_background-repeat:no-repeat;
+	background-color: #76C2AF;
+	margin-left: 20px;
 	cursor:pointer;
 }
 

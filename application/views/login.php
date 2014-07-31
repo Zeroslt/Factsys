@@ -14,7 +14,7 @@
 
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title> Sistema FactSys - Raul Mesa <?php echo $this->lang->line('login_login'); ?></title>
+<title> Sistema FactSys <?php echo $this->lang->line('login_login'); ?></title>
 <script src="<?php echo base_url();?>js/jquery-1.2.6.min.js" type="text/javascript" language="javascript" charset="UTF-8"></script>
 <script type="text/javascript">
 $(document).ready(function()
@@ -23,15 +23,15 @@ $(document).ready(function()
 });
 </script>
 </head>
-<body class="scroll">
+<body class="scroll" style="background-color: #1FBFD4;">
 
 <div class="login">
     <div class="login-screen">
 
-    	<h4>Bienvenido al sistema de inventario de <small>Raul Mesa</small></h4>
+    	
 
-	    <div class="login-icon">
-	        <img src="<?php echo base_url();?>images/biker.png" alt="Bienvenido" />
+	    <div class="login-icon" style="left: 129px; position: absolute;top: 134px;width: 154px;">
+	        <img src="<?php echo base_url();?>images/logo.png" alt="Bienvenido" />
 	    </div>
 
     <?php echo form_open('login') ?>
@@ -40,7 +40,7 @@ $(document).ready(function()
 		    <?php echo validation_errors(); ?>
 		</div>
 		
-		<div class="login-form">
+		<div class="login-form" style="width: 760px;">
 
 	        <div class="form-group">
 				<?php echo form_input(array(
